@@ -1,0 +1,16 @@
+
+.container{
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    padding-top: 300px; 
+    /* align-items:  center; */
+    
+    
+}
+.item{
+    border: 2px solid red;
+    height: 55px;
+    width: 55px;
+    align-items:  center;
+}
