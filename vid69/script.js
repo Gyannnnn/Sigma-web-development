@@ -18,16 +18,13 @@
 // console.log(facFor(a))
 
 // practice
-prompt("Enter a number")
+let num;
+function factorial(num) {
+    let facto = BigInt(1);
+    for (let index =  BigInt(1); index <= BigInt(num); index++) {
 
-let num = prompt;
-function factorial(num){
-    let facto = 1;
-    for (let index = 1; index <= num ; index++) {
-       facto = facto*index;
-
+        facto = facto * index;
     }
     return facto;
 }
-
-console.log(factorial(num));
+console.log(factorial(5));
