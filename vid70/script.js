@@ -1,11 +1,16 @@
-console.log("Gyana Ranjan Patra ");
+console.log("Initialising The programme");
+let pro  = document.querySelector(".container").children;
+function getRandomColor()
+{
+    let val1 =Math.ceil( 0+Math.random()*255);
+    let val2 =Math.ceil( 0+Math.random()*255);
+    let val3 =Math.ceil( 0+Math.random()*255);
+    return `rgb(${val1}, ${val2}, ${val3})`;
+    
 
-document.getElementById("box1").style.backgroundColor = "red"
-document.getElementById("box1").style.color = "#fff"
-document.getElementById("box2").style.backgroundColor = "green"
-document.getElementById("box2").style.color = "red"
-document.getElementById("box3").style.backgroundColor = "magenta"
-document.getElementById("box4").style.backgroundColor = "yellow"
-document.getelement
-document.getElementById("box5").style.backgroundColor = "black"
-document.getElementById("box5").style.color = "white"
+}
+Array.from(pro).forEach(e=>{
+    e.style.backgroundColor = getRandomColor();
+    e.style.color = getRandomColor();
+});
+
