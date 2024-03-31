@@ -21,9 +21,18 @@
 
 
 
-// let a = 6;
-let a = -1;
-do{
+// // let a = 6;
+// let a = -1;
+// do{
+//     console.log(a);
+//     a--;
+// }while(a>=0)
+
+console.log("I am A Tutorial On Looop")
+
+
+let a = 0;
+for (let i = 0 ; i<=4466166; i++){
     console.log(a);
-    a--;
-}while(a>=0)
+    a++;
+}
